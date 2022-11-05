@@ -24,7 +24,7 @@
 - At first, we have to run ``` php artisan migrate ```
 - Then we have to run ``` php artisan key:generate ```
 - Then if you need to run test please use this command``` ./vendor/bin/phpunit  ```
-- Finally, for running our application please run ``` php artisan server  ```
+- Finally, for running our application please run ``` php artisan serve  ```
 
 ## Testing Our Application
 
