@@ -20,6 +20,7 @@
 - Finally, we have to add testing => database name and credentials inside phpunit.xml
 
 ## Installation Steps
+- We have to run ``` composer install```
 - At first, we have to run ``` php artisan migrate ```
 - Then we have to run ``` php artisan key:generate ```
 - Then we have to run ``` php artisan migrate ```
