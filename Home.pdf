@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "0a2f54b1-f3aa-482c-a377-c09b1ed1d61b",
+		"name": "Our Education Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7337634"
+	},
+	"item": [
+		{
+			"name": "List Transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9008/api/v1/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9008",
+					"path": [
+						"api",
+						"v1",
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "currency",
+							"value": "USD",
+							"disabled": true
+						},
+						{
+							"key": "statusCode",
+							"value": "2",
+							"description": "1 authorized, 2 decline, 3 refunded",
+							"disabled": true
+						},
+						{
+							"key": "amountMin",
+							"value": "100",
+							"disabled": true
+						},
+						{
+							"key": "amountMax",
+							"value": "200",
+							"disabled": true
+						},
+						{
+							"key": "dateFrom",
+							"value": "2020-11-30",
+							"disabled": true
+						},
+						{
+							"key": "dateTo",
+							"value": "2020-11-30",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Members",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9008/api/v1/members",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9008",
+					"path": [
+						"api",
+						"v1",
+						"members"
+					],
+					"query": [
+						{
+							"key": "currency",
+							"value": "USD",
+							"disabled": true
+						},
+						{
+							"key": "statusCode",
+							"value": "2",
+							"description": "1 authorized, 2 decline, 3 refunded",
+							"disabled": true
+						},
+						{
+							"key": "amountMin",
+							"value": "100",
+							"disabled": true
+						},
+						{
+							"key": "amountMax",
+							"value": "200",
+							"disabled": true
+						},
+						{
+							"key": "dateFrom",
+							"value": "2020-11-30",
+							"disabled": true
+						},
+						{
+							"key": "dateTo",
+							"value": "2020-11-30",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Store Users/Transactions From Providers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9008/api/v1/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9008",
+					"path": [
+						"api",
+						"v1",
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
