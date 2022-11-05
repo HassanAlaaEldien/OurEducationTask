@@ -12,12 +12,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9008/api/v1/transactions",
+					"raw": "http://localhost:8000/api/v1/transactions",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "9008",
+					"port": "8000",
 					"path": [
 						"api",
 						"v1",
@@ -66,12 +66,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9008/api/v1/members",
+					"raw": "http://localhost:8000/api/v1/members",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "9008",
+					"port": "8000",
 					"path": [
 						"api",
 						"v1",
@@ -120,12 +120,12 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9008/api/v1/transactions",
+					"raw": "http://localhost:8000/api/v1/transactions",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "9008",
+					"port": "8000",
 					"path": [
 						"api",
 						"v1",
